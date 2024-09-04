@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//Challenge 1 : Initialisation et Affichage
 
 int main(){
 int t[]={1,2,3,4,5};

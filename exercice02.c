@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Challenge 2 : Saisie et Affichage des Éléments
+
 int main(){
 int i,n; // Nombre d elements du tableau
 printf("entrer le nombre d element: ");
