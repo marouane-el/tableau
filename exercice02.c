@@ -17,3 +17,17 @@ printf("%d",tab[i]);
 return 0;
 
 }
+#include <stdio.h>
+
+int main() {
+    int n ,i;
+    printf("entrer un bombre: ");
+    scanf("%d",&n);
+    int tab[n];
+    for(i=0;i<n;i++){
+        printf("la valeur t[%d] : ",i);
+        scanf("%d",&tab[i]);
+    }
+    for(i=0;i<n;i++){
+        printf("la valeur et t[%d]:%d \n",i,tab[i]);
+    }
